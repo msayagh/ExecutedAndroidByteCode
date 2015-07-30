@@ -40,4 +40,4 @@ Open script.sh, and modify the variables "programName" and "androidSDK".
 
 ## Example:
 
-<img src="openEmulator.png" />
+<img src="screenShot/openEmulator.png" />
