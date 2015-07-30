@@ -82,7 +82,7 @@ Once you get the previous screen, you will find some commands generated in the f
 
 8. Execute your tests again (what you executed in step 4), some results will be generated in the command line, like :
 
-<img src ="screeShot/traceResult.png" />
+<img src ="screenShot/traceResult.png" />
 
 9. Copy paste these results in the data/traces.txt file, from the first "## Breakpoint hit in ....." without copying ">>", to the last line.
 
