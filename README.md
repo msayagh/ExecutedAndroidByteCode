@@ -1,4 +1,14 @@
 # ExecutedAndroidByteCode
 
+ExecutedAndroidByteCode is a tool helping to get executed Android byte code. It uses the debugger AndBug. 
 
-### test
+## Installation:
+
+::
+    
+   ./andbug
+
+
+## How to use:
+
+## Example:
