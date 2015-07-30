@@ -39,3 +39,5 @@ Open script.sh, and modify the variables "programName" and "androidSDK".
 10. Type "exit" in the command line, and get the executed byte code.
 
 ## Example:
+
+<img src="https://www.google.ca/search?q=image&biw=1270&bih=650&source=lnms&tbm=isch&sa=X&ved=0CAYQ_AUoAWoVChMImeW72IyDxwIVEBqSCh2PewjT#imgrc=ptIQPk1_Ukio2M%3A" />
