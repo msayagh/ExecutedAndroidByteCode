@@ -1,53 +1,45 @@
-## AndBug (C) 2011 Scott W. Dunlop <swdunlop@gmail.com>
->> break com.example.test.BuildConfig <init> 4
+>> break com.example.samirbug1.MainActivity onButtonClicked 42
 ## Setting Hooks
->> break com.example.test.R <init> 10
+   -- Hooked <536870920> com.example.samirbug1.MainActivity.onButtonClicked(Landroid/view/View;)V:0 <class 'andbug.vm.Location'>
+>> break com.example.samirbug1.MainActivity onButtonClicked 43
 ## Setting Hooks
->> break com.example.test.myClass <init> 3
+   -- Hooked <536870921> com.example.samirbug1.MainActivity.onButtonClicked(Landroid/view/View;)V:1 <class 'andbug.vm.Location'>
+>> break com.example.samirbug1.MainActivity onButtonClicked 47
 ## Setting Hooks
-   -- Hooked <536870970> com.example.test.myClass.<init>()V:0 <class 'andbug.vm.Location'>
->> break com.example.test.myClass RandomNumber 6
+   -- Hooked <536870922> com.example.samirbug1.MainActivity.onButtonClicked(Landroid/view/View;)V:9 <class 'andbug.vm.Location'>
+>> break com.example.samirbug1.MainActivity onButtonClicked 48
 ## Setting Hooks
-   -- Hooked <536870971> com.example.test.myClass.RandomNumber()D:0 <class 'andbug.vm.Location'>
->> break com.example.test.myClass RandomNumber 7
+   -- Hooked <536870923> com.example.samirbug1.MainActivity.onButtonClicked(Landroid/view/View;)V:18 <class 'andbug.vm.Location'>
+>> break com.example.samirbug1.MainActivity onButtonClicked 50
 ## Setting Hooks
-   -- Hooked <536870972> com.example.test.myClass.RandomNumber()D:7 <class 'andbug.vm.Location'>
->> break com.example.test.MainActivity <init> 10
+   -- Hooked <536870924> com.example.samirbug1.MainActivity.onButtonClicked(Landroid/view/View;)V:23 <class 'andbug.vm.Location'>
+>> break com.example.samirbug1.MainActivity onButtonClicked 45
 ## Setting Hooks
-   -- Hooked <536870973> com.example.test.MainActivity.<init>()V:0 <class 'andbug.vm.Location'>
->> break com.example.test.MainActivity onButtonClickedDisplay 39
+   -- Hooked <536870925> com.example.samirbug1.MainActivity.onButtonClicked(Landroid/view/View;)V:24 <class 'andbug.vm.Location'>
+>> break com.example.samirbug1.MainActivity onCreate 17
 ## Setting Hooks
-   -- Hooked <536870974> com.example.test.MainActivity.onButtonClickedDisplay(Landroid/view/View;)V:0 <class 'andbug.vm.Location'>
->> break com.example.test.MainActivity onButtonClickedDisplay 40
+   -- Hooked <536870926> com.example.samirbug1.MainActivity.onCreate(Landroid/os/Bundle;)V:0 <class 'andbug.vm.Location'>
+>> break com.example.samirbug1.MainActivity onCreate 18
 ## Setting Hooks
-   -- Hooked <536870975> com.example.test.MainActivity.onButtonClickedDisplay(Landroid/view/View;)V:9 <class 'andbug.vm.Location'>
->> break com.example.test.MainActivity onButtonClickedDisplay 42
+   -- Hooked <536870927> com.example.samirbug1.MainActivity.onCreate(Landroid/os/Bundle;)V:3 <class 'andbug.vm.Location'>
+>> break com.example.samirbug1.MainActivity onCreate 19
 ## Setting Hooks
-   -- Hooked <536870976> com.example.test.MainActivity.onButtonClickedDisplay(Landroid/view/View;)V:31 <class 'andbug.vm.Location'>
->> break com.example.test.MainActivity onCreate 14
+   -- Hooked <536870928> com.example.samirbug1.MainActivity.onCreate(Landroid/os/Bundle;)V:9 <class 'andbug.vm.Location'>
+>> break com.example.samirbug1.MainActivity onCreateOptionsMenu 24
 ## Setting Hooks
-   -- Hooked <536870977> com.example.test.MainActivity.onCreate(Landroid/os/Bundle;)V:0 <class 'andbug.vm.Location'>
->> break com.example.test.MainActivity onCreate 15
+   -- Hooked <536870929> com.example.samirbug1.MainActivity.onCreateOptionsMenu(Landroid/view/Menu;)Z:0 <class 'andbug.vm.Location'>
+>> break com.example.samirbug1.MainActivity onCreateOptionsMenu 25
 ## Setting Hooks
-   -- Hooked <536870978> com.example.test.MainActivity.onCreate(Landroid/os/Bundle;)V:3 <class 'andbug.vm.Location'>
->> break com.example.test.MainActivity onCreate 16
+   -- Hooked <536870930> com.example.samirbug1.MainActivity.onCreateOptionsMenu(Landroid/view/Menu;)Z:9 <class 'andbug.vm.Location'>
+>> break com.example.samirbug1.MainActivity onOptionsItemSelected 33
 ## Setting Hooks
-   -- Hooked <536870979> com.example.test.MainActivity.onCreate(Landroid/os/Bundle;)V:9 <class 'andbug.vm.Location'>
->> break com.example.test.MainActivity onCreateOptionsMenu 21
+   -- Hooked <536870931> com.example.samirbug1.MainActivity.onOptionsItemSelected(Landroid/view/MenuItem;)Z:0 <class 'andbug.vm.Location'>
+>> break com.example.samirbug1.MainActivity onOptionsItemSelected 34
 ## Setting Hooks
-   -- Hooked <536870980> com.example.test.MainActivity.onCreateOptionsMenu(Landroid/view/Menu;)Z:0 <class 'andbug.vm.Location'>
->> break com.example.test.MainActivity onCreateOptionsMenu 22
+   -- Hooked <536870932> com.example.samirbug1.MainActivity.onOptionsItemSelected(Landroid/view/MenuItem;)Z:4 <class 'andbug.vm.Location'>
+>> break com.example.samirbug1.MainActivity onOptionsItemSelected 35
 ## Setting Hooks
-   -- Hooked <536870981> com.example.test.MainActivity.onCreateOptionsMenu(Landroid/view/Menu;)Z:9 <class 'andbug.vm.Location'>
->> break com.example.test.MainActivity onOptionsItemSelected 30
+   -- Hooked <536870933> com.example.samirbug1.MainActivity.onOptionsItemSelected(Landroid/view/MenuItem;)Z:9 <class 'andbug.vm.Location'>
+>> break com.example.samirbug1.MainActivity onOptionsItemSelected 37
 ## Setting Hooks
-   -- Hooked <536870982> com.example.test.MainActivity.onOptionsItemSelected(Landroid/view/MenuItem;)Z:0 <class 'andbug.vm.Location'>
->> break com.example.test.MainActivity onOptionsItemSelected 31
-## Setting Hooks
-   -- Hooked <536870983> com.example.test.MainActivity.onOptionsItemSelected(Landroid/view/MenuItem;)Z:4 <class 'andbug.vm.Location'>
->> break com.example.test.MainActivity onOptionsItemSelected 32
-## Setting Hooks
-   -- Hooked <536870984> com.example.test.MainActivity.onOptionsItemSelected(Landroid/view/MenuItem;)Z:9 <class 'andbug.vm.Location'>
->> break com.example.test.MainActivity onOptionsItemSelected 34
-## Setting Hooks
-   -- Hooked <536870985> com.example.test.MainActivity.onOptionsItemSelected(Landroid/view/MenuItem;)Z:10 <class 'andbug.vm.Location'>
+   -- Hooked <536870934> com.example.samirbug1.MainActivity.onOptionsItemSelected(Landroid/view/MenuItem;)Z:10 <class 'andbug.vm.Location'>

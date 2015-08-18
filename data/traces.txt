@@ -1,5 +1,5 @@
-## Breakpoint hit in thread <1> main    (running suspended), process suspended.
-   -- com.example.test.MainActivity.onButtonClickedDisplay(Landroid/view/View;)V:0
+>> ## Breakpoint hit in thread <1> main    (running suspended), process suspended.
+   -- com.example.samirbug1.MainActivity.onButtonClicked(Landroid/view/View;)V:0
    -- java.lang.reflect.Method.invokeNative(Ljava/lang/Object;[Ljava/lang/Object;Ljava/lang/Class;[Ljava/lang/Class;Ljava/lang/Class;IZ)Ljava/lang/Object; <native>
    -- java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;:17
    -- android.view.View$1.onClick(Landroid/view/View;)V:46
@@ -15,7 +15,7 @@
    -- com.android.internal.os.ZygoteInit.main([Ljava/lang/String;)V:70
    -- dalvik.system.NativeStart.main([Ljava/lang/String;)V <native>
 ## Breakpoint hit in thread <1> main    (running suspended), process suspended.
-   -- com.example.test.MainActivity.onButtonClickedDisplay(Landroid/view/View;)V:9
+   -- com.example.samirbug1.MainActivity.onButtonClicked(Landroid/view/View;)V:1
    -- java.lang.reflect.Method.invokeNative(Ljava/lang/Object;[Ljava/lang/Object;Ljava/lang/Class;[Ljava/lang/Class;Ljava/lang/Class;IZ)Ljava/lang/Object; <native>
    -- java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;:17
    -- android.view.View$1.onClick(Landroid/view/View;)V:46
@@ -31,8 +31,7 @@
    -- com.android.internal.os.ZygoteInit.main([Ljava/lang/String;)V:70
    -- dalvik.system.NativeStart.main([Ljava/lang/String;)V <native>
 ## Breakpoint hit in thread <1> main    (running suspended), process suspended.
-   -- com.example.test.myClass.RandomNumber()D:0
-   -- com.example.test.MainActivity.onButtonClickedDisplay(Landroid/view/View;)V:16
+   -- com.example.samirbug1.MainActivity.onButtonClicked(Landroid/view/View;)V:24
    -- java.lang.reflect.Method.invokeNative(Ljava/lang/Object;[Ljava/lang/Object;Ljava/lang/Class;[Ljava/lang/Class;Ljava/lang/Class;IZ)Ljava/lang/Object; <native>
    -- java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;:17
    -- android.view.View$1.onClick(Landroid/view/View;)V:46
@@ -48,8 +47,7 @@
    -- com.android.internal.os.ZygoteInit.main([Ljava/lang/String;)V:70
    -- dalvik.system.NativeStart.main([Ljava/lang/String;)V <native>
 ## Breakpoint hit in thread <1> main    (running suspended), process suspended.
-   -- com.example.test.myClass.RandomNumber()D:7
-   -- com.example.test.MainActivity.onButtonClickedDisplay(Landroid/view/View;)V:16
+   -- com.example.samirbug1.MainActivity.onButtonClicked(Landroid/view/View;)V:9
    -- java.lang.reflect.Method.invokeNative(Ljava/lang/Object;[Ljava/lang/Object;Ljava/lang/Class;[Ljava/lang/Class;Ljava/lang/Class;IZ)Ljava/lang/Object; <native>
    -- java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;:17
    -- android.view.View$1.onClick(Landroid/view/View;)V:46
@@ -65,7 +63,23 @@
    -- com.android.internal.os.ZygoteInit.main([Ljava/lang/String;)V:70
    -- dalvik.system.NativeStart.main([Ljava/lang/String;)V <native>
 ## Breakpoint hit in thread <1> main    (running suspended), process suspended.
-   -- com.example.test.MainActivity.onButtonClickedDisplay(Landroid/view/View;)V:31
+   -- com.example.samirbug1.MainActivity.onButtonClicked(Landroid/view/View;)V:18
+   -- java.lang.reflect.Method.invokeNative(Ljava/lang/Object;[Ljava/lang/Object;Ljava/lang/Class;[Ljava/lang/Class;Ljava/lang/Class;IZ)Ljava/lang/Object; <native>
+   -- java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;:17
+   -- android.view.View$1.onClick(Landroid/view/View;)V:46
+   -- android.view.View.performClick()Z:18
+   -- android.view.View$PerformClick.run()V:2
+   -- android.os.Handler.handleCallback(Landroid/os/Message;)V:2
+   -- android.os.Handler.dispatchMessage(Landroid/os/Message;)V:4
+   -- android.os.Looper.loop()V:84
+   -- android.app.ActivityThread.main([Ljava/lang/String;)V:56
+   -- java.lang.reflect.Method.invokeNative(Ljava/lang/Object;[Ljava/lang/Object;Ljava/lang/Class;[Ljava/lang/Class;Ljava/lang/Class;IZ)Ljava/lang/Object; <native>
+   -- java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;:17
+   -- com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run()V:11
+   -- com.android.internal.os.ZygoteInit.main([Ljava/lang/String;)V:70
+   -- dalvik.system.NativeStart.main([Ljava/lang/String;)V <native>
+## Breakpoint hit in thread <1> main    (running suspended), process suspended.
+   -- com.example.samirbug1.MainActivity.onButtonClicked(Landroid/view/View;)V:23
    -- java.lang.reflect.Method.invokeNative(Ljava/lang/Object;[Ljava/lang/Object;Ljava/lang/Class;[Ljava/lang/Class;Ljava/lang/Class;IZ)Ljava/lang/Object; <native>
    -- java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;:17
    -- android.view.View$1.onClick(Landroid/view/View;)V:46
